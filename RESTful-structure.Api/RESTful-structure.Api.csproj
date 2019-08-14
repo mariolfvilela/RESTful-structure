@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>RESTful_structure.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Resource - DTO\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Controllers\Config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RESTful-structure.Domain\RESTful-structure.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
